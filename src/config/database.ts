@@ -5,8 +5,8 @@ export default {
   socketPath: '/tmp/mysql.sock',
   port: 3306,
   username: 'root',
-  password: 'xiaoerxiaoer',
-  database: 'nest',
+  password: 'admin123',
+  database: 'nest_demo',
   entities: [join(__dirname, '../', '**/**.entity{.ts,.js}')],
   synchronize: true,
 };
